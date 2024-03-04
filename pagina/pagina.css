@@ -1,0 +1,40 @@
+body{
+  background-image: url('imagens/e43e28117775581a404c2fe4b7909f1e.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.imagens {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.imagens a {
+  flex: 0 0 calc(33.33% - 60px);
+  padding: 30px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.imagens img {
+  width: 250px;
+  border-radius: 10px;
+}
+@keyframes mudarCor {
+  0% { color: black; }
+  25% { color: #F3EFE0; }
+  50% { color: #7FEFBD; }
+  75% { color: #CBA135; }
+  100% { color:#718F94; }
+}
+
+h1 {
+  animation: mudarCor 5s infinite;
+}
+.numero p{
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+    <link rel="stylesheet" href="exercicio3.css">
+</head>
+<body>
+    <h1 id="escrita">
+        exercicio3 | Conversor de Temperatura
+    </h1>
+    <div class="container">
+        <div class="box-container">
+            <form action="">
+                <div class="temp_calculator_inputs">
+                    <h1 class="title">
+                        Conversor de Temperatura
+                    </h1>
+                    <fieldset class="calculator_value">
+                        <legend>Graus</legend>
+                        <input type="number" id="input_value" name="value">
+                        <select name="input" id="input">
+                            <option value="celsius">Celsius (&degC) </option>
+                            <option value="fahrenheit">Fahrenheit (&deg F) </option>
+                        </select>
+                    </fieldset>
+                    <div class="calculator_input">
+                        <fieldset class="calculator_value">
+                            <legend>Converter Para:</legend>
+                            <select name="output" id="output">
+                                <option value="celsius">Celsius (&deg C) </option>
+                                <option value="fahrenheit">Fahrenheit (&deg F) </option>
+                            </select>
+                        </fieldset>
+                    </div>
+                    <div class="btn">
+                        <button type="button" id="convert">Converter</button>
+                        <button id="clean" type="button">Limpar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="result-area">
+            <h1 id="result"></h1>
+        </div>
+    </div>
+    <script src="exercicio3.js"></script>
+</body>
+</html>

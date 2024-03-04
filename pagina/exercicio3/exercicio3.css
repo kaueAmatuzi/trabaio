@@ -1,0 +1,103 @@
+body{
+    background-image: url(5404d5593dddf890de85dd1134a6fed4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+.container{
+    display: grid;
+    width: 900px;
+    height: 400px;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.box-container{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: #187795 2px solid;
+    border-bottom-left-radius: 5px;
+}
+.title{
+    font-size: 1.5rem;
+    color: #232529;
+    text-align: center;
+}
+
+.temp_calculator_inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+.calculator_value{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 330px;
+    border-radius: 2px;
+    background: #187795;
+    border: none;
+}
+
+.calculator_value legend{
+    font-size: 1.3rem;
+    padding: 6px;
+    color: #232529;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.calculator_value select{
+    font-size: 1rem;
+    color: #232529;
+    text-align: right;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+}
+button{
+    margin: 15px;
+    width: 110px;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    color: #fff;
+    border-color: #187795;
+    background-color: #187795;
+    font-weight: bolder;
+    border: transparent;
+    cursor: pointer;
+}
+
+.result-area{
+    background-color: rgba(27, 76, 99, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#result{
+    font-size: 2rem;
+    color: #fff;
+}
+#escrita{
+    position: absolute;
+    margin-top: -30rem;
+    color: #fff;
+}

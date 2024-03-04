@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/06/2f/d5/062fd5a5478b9e363fed00a619a54291.jpg);
+    background-size: 100%;
+}
+
+.carrossel {
+    box-shadow: 4px 2px 4px black;
+    overflow: hidden;
+    height: 460px;
+    width: 1100px;
+    perspective: 1000px;
+    border-radius: 1rem;
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+img {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+    margin-right: 20px;
+    transition: transform 0.5s;
+}
+
+.carrossel:hover img {
+    transform: scale(1.1); 
+}
+#trabaio{
+    color: #fff;
+    text-align: center;
+    margin-left: 200px;
+    
+}
